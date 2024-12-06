@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Roboto", serif;
+}
+.top {
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    background-color: black;
+}
+.top, .banner {
+    margin: 0;
+    padding: 0;
+}
+.topleft{
+    width: 65%;
+}
+
+.topleft img{
+    margin-top: 5px;
+    width: 7%;
+}
+
+.topright {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+.topright a:hover{
+    background-color: #a0a0a5;
+}
+
+.topright a {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color:  #fff;
+    padding: 0 10px;
+}
+.mid{
+    width: 100%;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #0171E3;
+}
+.mid img{
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button-wrapper {
+    width: 70px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0171E3;
+    border-radius: 30px; 
+    text-align: center;
+    margin: 0 auto; 
+}
+.button-wrapper:hover{
+    background-color: #7fa4f4;
+}
+
+.button-wrapper a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dump{
+    width: 100%;
+    background-color: #F4F3F8;
+    padding-bottom: 20px;
+}
+.dump2{
+    display: block;
+    width: 100%;
+    background-color: #F4F3F8;
+    padding: 30px 0;
+}
+.price{
+    width: 100%;
+    text-align: center;
+    background-color: #F4F3F8
+}
+.button-wrapper2 {
+    width: 110px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0171E3;
+    border-radius: 30px; 
+    text-align: center;
+    margin: 0 auto; 
+}
+.button-wrapper2:hover{
+    background-color: #7fa4f4;
+}
+.button-wrapper2 a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Removes underline from link */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Adjusts font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 30px 0;
+}
+.blockiphone{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content:space-around;
+}
+.blockiphone img{
+    width: 25%;
+}
+
+.blockiphone img:hover{
+    transform: scale(1.02);
+}
+.priceiphoneblock{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content:space-around;
+}
+.priceiphoneblock div{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 25%;
+}
+.buyiphonebtn{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+.buyiphonebtn a:hover{
+    background-color: #7fa4f4;
+}
+.buyiphonebtn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0171E3;
+    text-align: center;
+    border-radius: 30px;
+}
+.bottom{
+    width: 100%;
+}
+.subbot{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.subbot div{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.subbot i{
+    color: #318D46;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.outer{
+    width: 100%;
+    background-color: black;
+}
+
+.cov{
+    margin: 0 auto;
+    background-color: black;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.social img:first-child{
+    width: 20%;
+}
+
+.social img:nth-child(2)
+{
+    width: 20%;
+}
+.social div{
+    line-height: 25px;
+    display: inline-block;
+    text-align:start;
+    padding-bottom: 20px;
+}
+.i4, .policy, .payment{
+    width: 25%;
+    line-height: 30px;
+}
+.i4 a, .policy a, .payment a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.i4 div:first-child, .policy div, .payment div:first-child, .contact div:first-child{
+    padding: 10px 0;
+    font-size: 19px;
+    font-weight: bold;
+    color: #318D46;
+}
+.payment a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.contact a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.payment i{
+    padding-right: 8px;
+    padding-top: 7px;
+}
+.contact i{
+    padding-right: 8px;
+    padding-top: 1px;
+}
+.cpr{
+    display: flex;
+}
+.cpr div{
+    font-size: 12px;
+}
+.cpr i{
+    padding-top: 6.5px;
+    padding-right: 7px;
+}
+
+  
